@@ -2,6 +2,7 @@
  a very light plugin importer for make module in onset and use in other script (because exportFunction broke object)
 ## this package not have loader for client (server only)
 
+### first step add importer in you server_config
 
 #### for load new package add you package in importer.lua at the end of file
 
