@@ -8,7 +8,7 @@ function import(filename)
 	end
 end
 
-import("easy_rp/server.lua")
+--import("easy_rp/server.lua")
 
 
 
