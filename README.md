@@ -1,5 +1,5 @@
 # importer
- a very light plugin importer for make module and use in other script
+ a very light plugin importer for make module in onset and use in other script (because exportFunction broke object)
 ## this package not have loader for client (server only)
 
 
