@@ -24,11 +24,9 @@ local player = {}
 player.__index = player
 
 function player:init(ply)
-   local acnt = {}
-   setmetatable(acnt,player)
-   acnt.money = ply["money"]
-   acnt.bank = ply["bank"]
-   return acnt
+   setmetatable(ply, self)
+   self.__index = self
+   return ply
 end
 
 function player:getMoney()
