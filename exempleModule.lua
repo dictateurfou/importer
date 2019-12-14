@@ -7,7 +7,7 @@ local function test2()
 	print("passe2")
 end
 
-
+--exporter car return export a la fin
 local export = {}
 
 function export.foo()

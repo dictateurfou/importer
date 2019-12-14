@@ -9,7 +9,3 @@ function import(filename)
 end
 
 --import("easy_rp/server.lua")
-
-
-
-
